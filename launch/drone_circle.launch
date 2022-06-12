@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<launch>
+
+    <group>
+    <node name="fly_in_circle_drone1" pkg="two_drones" type="circle"  output="screen" respawn="false" respawn_delay="0">
+        <param name="namespace" value="/drone1"/>
+		<param name="use_sim_time"  value="true" />
+        
+    </node>
+    </group>
+
+    
+
+</launch>
